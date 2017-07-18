@@ -1,0 +1,204 @@
+html
+{
+ box-sizing: border-box;
+ background-color: #0C4496;
+}
+
+body
+{
+	margin: 0;
+}
+
+*, *:before, *:after
+{
+ box-sizing: inherit;
+}
+
+#heading
+{
+   width: 100%;
+   background-color: #ADADAD;
+   text-align: center;
+   margin: 0;
+   padding: 2%;
+}
+
+#interface
+{
+	margin-top: 7%;
+   background-color:#0076C6;
+   padding: 5%;
+   width: 60%;
+	height: auto;
+   margin-left: auto;
+   margin-right: auto;	
+	background-image: url("grant.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 15px;
+
+}
+
+#interface h2
+{
+   text-align: center;
+}
+
+#options
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+#options li
+{
+    list-style: none;
+    display: inline; 
+    background-color: #ADADAD;
+    flex-basis: 33%;
+}
+
+#text
+{
+	display:none;
+	background-color: #ADADAD;
+	font-size: 2em;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	border-radius: 10px;
+}
+
+a:link
+{
+	color: Black;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: Black;
+	text-decoration: none;
+}
+
+#continue
+{
+	display: none;
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	 margin-left: 27%;
+	 border-radius: 5px;
+}
+
+#main
+{
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	 margin-left: 38%;
+	 border-radius: 5px;
+}
+
+#interface ul
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#interface li
+{
+	margin: 3%;
+	padding: 5%;
+	text-align: center;
+	font-size: 2em;
+	border-radius: 10px;
+}
+
+.lesson
+{
+	 list-style: none;
+    display: inline; 
+    background-color: #ADADAD;
+    flex-basis: 50%;
+}
+
+#interface p
+{
+	background-color: #ADADAD;
+	padding: 3%;
+	font-size: 1.3em;
+	opacity: 0.9;
+}
+
+#interface h2
+{
+	background-color: #ADADAD;
+	padding: 3%;
+	font-size: 1.7em;
+	opacity: 0.9;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#intro
+{
+	margin-top: 7%;
+   background-color:#0076C6;
+   padding: 5%;
+   width: 60%;
+	height: auto;
+   margin-left: auto;
+   margin-right: auto;	
+	background-image: url("grant.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 15px;
+	
+
+}
+
+@media (min-width: 700px)
+{
+	#text
+{
+	display:none;
+	background-color: #ADADAD;
+	font-size: 2em;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	border-radius: 10px;
+}
+
+#continue
+{
+	display: none;
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	 margin-left: 37%;
+	 border-radius: 5px;
+}
+
+}
